@@ -1,0 +1,9 @@
+@import url("./vendor/fonts.css");
+@import url("./vendor/normalize.css");
+
+
+.container__image {
+  transition: 4s cubic-bezier(0,.28,.05,1.02);
+  transform: rotate(-22.5deg);
+  margin: 50px;
+}
