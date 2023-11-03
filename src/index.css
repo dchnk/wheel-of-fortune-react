@@ -22,10 +22,16 @@
   height: 100%;
   background: radial-gradient(79.62% 85.48% at 50% 50%, #75BDFF 0%, #020065 100%);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
 @import url("./components/header/header.css");
+
+@import url("./components/main/main.css");
 
 @import url("./components/wheel/wheel.css");

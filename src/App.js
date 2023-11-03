@@ -1,5 +1,5 @@
 import React from 'react';
-import Wheel from './components/wheel/Wheel';
+import Main from './components/main/Main';
 import Header from './components/header/Header';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Header />
 
         
-        <Wheel />
+        <Main />
       </div>
     </div>
   );
