@@ -1,0 +1,33 @@
+.winners {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #3598DF 0%, #006BB8 100%);
+  box-shadow: 1px 5px 4px 0px #1B379F inset;
+  margin-bottom: 16px;
+  height: 100%;
+  max-height: 326px;
+  max-width: 395px;
+  display: flex;
+  flex-direction: column;
+}
+
+.winners__heading {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px auto 9px;
+}
+
+.winners__list {
+  list-style: none;
+  margin: 0 15px 24px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 14px;
+}

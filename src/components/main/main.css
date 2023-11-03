@@ -1,16 +1,17 @@
 .main {
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: minmax(140px, max-content) 1fr;
+  grid-template-rows: minmax(140px, max-content) minmax(140px, 326px);
   margin: 0 14px;
-  
+  gap: 16px;
+  max-height: 637px;
 }
 
 .main__container {
   width: 100%;
   display: flex;
   gap: 14px;
+  justify-content: center;
 }
 
 .main__info {
@@ -44,6 +45,7 @@
 
 .main__info-heading {
   margin: auto;
+  max-width: 90px;
 }
 
 .main__button-spin {
@@ -60,4 +62,14 @@
   border-radius: 10px;
   border: 3px solid #FFCD7E;
   background: linear-gradient(242deg, #BC0000 27.02%, #8B0000 82.05%);
+}
+
+@media screen and (max-width: 351px) {
+  .main__info-container {
+    font-size: 16px;
+  }
+
+  .main__button-spin {
+    font-size: 16px;
+  }
 }

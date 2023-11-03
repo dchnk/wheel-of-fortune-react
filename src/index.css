@@ -35,3 +35,7 @@
 @import url("./components/main/main.css");
 
 @import url("./components/wheel/wheel.css");
+
+@import url("./components/winners/winners.css");
+
+@import url("./components/winner/winner.css");

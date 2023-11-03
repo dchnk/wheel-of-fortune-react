@@ -7,10 +7,13 @@ function App() {
   return (
     <div className="page" >
       <div className='page__content'>
-        <Header />
+        <div className='page__container'>
+          <Header />
 
-        
-        <Main />
+
+          <Main />
+        </div>
+
       </div>
     </div>
   );

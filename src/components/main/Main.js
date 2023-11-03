@@ -1,5 +1,6 @@
 import React from 'react';
 import Wheel from '../wheel/Wheel';
+import Winners from '../winners/Winners';
 
 function App() {
 
@@ -55,7 +56,7 @@ function App() {
           <button className="main__button-spin" type='button' onClick={getRandomWheelAngle}>SPIN WHEEL</button>
         </div>
       </div>
-
+      <Winners/>
 
     </main>
   );
