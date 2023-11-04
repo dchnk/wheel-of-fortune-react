@@ -2,10 +2,9 @@
   border-radius: 5px;
   background: linear-gradient(180deg, #62B5F0 0%, #046EBA 100%);
   box-shadow: 1px 3px 3px 0px rgba(16, 46, 131, 0.50);
-  
   max-height: 52px;
   width: 100%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center; 
   padding: 6px 8px;
@@ -23,6 +22,7 @@
 
 .winner__photo {
   max-height: 38px;
+  height: 100%;
 }
 
 .winner__name {

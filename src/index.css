@@ -18,11 +18,12 @@
 .page__content {
   height: 100%;
   width: 100%;
+  padding-bottom: 10px;
   background: radial-gradient(79.62% 85.48% at 50% 50%, #75BDFF 0%, #020065 100%);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 

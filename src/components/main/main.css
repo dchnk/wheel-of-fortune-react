@@ -10,11 +10,12 @@
 .main__container {
   width: 100%;
   display: flex;
-  gap: 24px;
+  gap: 14px;
   justify-content: space-between;
 }
 
 .main__info {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -56,7 +57,6 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1px;
-  width: 130px;
   height: 33%;
   border-radius: 10px;
   border: 3px solid #FFCD7E;

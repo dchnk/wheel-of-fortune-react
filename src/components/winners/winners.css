@@ -4,9 +4,8 @@
   box-shadow: 1px 5px 4px 0px #1B379F inset;
   margin-bottom: 16px;
   height: 100%;
-  margin: 0 14px;
   max-height: 326px;
-  max-width: 344px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -31,4 +30,5 @@
   justify-content: space-between;
   box-sizing: border-box;
   gap: 14px;
+  height: 30%;
 }
